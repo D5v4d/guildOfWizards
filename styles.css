@@ -1,0 +1,141 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.block {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.block-title {
+  text-align: center;
+  font-size: 42px;
+  color: #009e1a;
+  margin-top: 30px;
+}
+.block-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-top: 30px;
+}
+
+.items {
+  display: flex;
+  gap: 20px;
+  box-shadow: 0px 0px 4px 0px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.customer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 300px;
+  gap: 20px;
+}
+.order-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 244px;
+}
+.order {
+  text-align: center;
+}
+
+.order-title {
+  font-size: 24px;
+  color: rgb(246, 185, 0);
+}
+
+.description {
+  font-size: 16px;
+}
+
+.assignee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.avatar {
+  width: 240px;
+  height: 100%;
+}
+
+.btn-delete,
+.btn-edit {
+  height: 30px;
+  width: 148px;
+  margin: 0 auto;
+  background: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  border: 1px solid #005dff;
+  color: #007aff;
+}
+.btn-delete {
+  border: 1px solid #ff0000;
+  color: #ff0000;
+}
+
+.edit,
+.delete {
+  position: fixed;
+  display: none;
+  gap: 15px;
+  padding: 20px;
+  top: 42%;
+  left: 35%;
+  background-color: white;
+  flex-direction: column;
+  box-shadow: 0px 0px 4px 0px;
+  border-radius: 10px;
+}
+.exit-btn {
+  width: 20px;
+  margin-left: 374px;
+}
+.edit-order,
+.edit-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+
+  input {
+    padding: 5px;
+    width: 300px;
+  }
+}
+
+.edit-btn {
+  width: 60px;
+  height: 24px;
+  margin-left: 334px;
+}
+
+.delete {
+  width: 250px;
+  text-align: center;
+  .delete-exit-btn:first-of-type {
+    margin-left: 180px;
+  }
+  .delete-exit-btn:last-of-type {
+    width: 30px;
+  }
+}
+.delete-btn {
+  width: 30px;
+}
+
+.delete-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
